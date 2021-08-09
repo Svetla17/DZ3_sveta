@@ -1,0 +1,84 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.second-section {
+    
+
+    .container {
+       
+        
+    }
+
+        &_part {
+            display: flex;
+            background-color: $c-secondary;
+            border-radius: 5rem;
+            max-height: 54rem;
+            margin-top: 60px;
+            }
+                              
+                         
+        &_img { 
+            display: flex;                  
+            width: 50%;
+            align-items: flex-end;
+            
+            
+            .glass {    
+                position: relative;           
+                padding-bottom: 6.5rem;
+                left: 1rem;               
+            }
+            
+             .iphone {
+                position: relative;
+                left: -5rem;
+                bottom: -5rem;                
+            }
+            
+            .chips {
+                position: relative;
+                left: -14.5rem;
+                bottom: -5.5rem;
+            }                
+        }   
+        
+        &_content {
+            width: 50%;
+            margin:  11.5rem 0 10rem -1rem ;
+            max-width: 41rem;
+
+
+            .primary { 
+                margin-bottom: 40px;
+                font-weight: normal;
+                font-size: 1.8rem;
+                line-height: 100%;
+                color: $c-text2
+                
+                
+            }    
+
+            h2 {
+                padding-top: 2.3rem;
+                padding-bottom: 2rem;
+                font-weight: 900;
+                font-size: 4rem;
+                line-height: 138%;               
+                color: $c-text;
+                max-width: 19rem;
+            }
+            .start {
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 150%;
+                color: $c-text2;
+            }
+        }
+}
+
+
+
+      
+      
+    

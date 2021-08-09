@@ -1,0 +1,37 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.items {
+    padding: 10rem 0;
+
+    &_row {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -15px;
+    }    
+ }
+
+.item {
+    width: 33.3333%;
+    padding: 0 15px;
+    
+    &_img {
+        margin: 0 0 2.9rem;
+    }
+
+    &_title {
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 130%;     
+        letter-spacing: 0.2px;
+        color: $c-text;
+        margin: 0 0 1.3rem;
+    }
+
+    &_description {
+        font-size: 1.6rem;
+        line-height: 150%;       
+        color: $c-text2;
+        max-width: 30rem;
+    }
+}
